@@ -8,7 +8,19 @@ nav > ul{
 nav li >a{
     text-decoration: none;
 }
+nav li:hover{
+    color: tomato;
+    background-color: rgb(225, 222, 221);
+}
 footer{
     margin-top:30px ;
     text-align: center;
+}
+table{
+    border-collapse: collapse;
+   
+}
+table td,th{
+    border: 1px solid black;
+    padding: 5px 10px;
 }
